@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dónde aparqué</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>🚗 Dónde aparqué</h1>
+
+<button id="saveLocation">He aparcado</button>
+<button id="findCar">Encontrar mi vehículo</button>
+
+<div id="result" style="display:none;">
+
+<p>Latitud: <span id="lat"></span></p>
+<p>Longitud: <span id="lon"></span></p>
+<p>Guardado: <span id="time"></span></p>
+
+<button id="copyCoords">Copiar coordenadas</button>
+
+<a id="mapsLink" target="_blank">Abrir en Google Maps</a>
+
+</div>
+
+<p id="status"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
